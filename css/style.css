@@ -1,0 +1,22 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+#canvas-container {
+    margin-bottom: 100px;
+}
+
+.arco-iris-header {
+    background: linear-gradient(
+        90deg, 
+        rgba(255,0,0,1) 0%, 
+        rgba(255,127,0,1) 16%, 
+        rgba(255,255,0,1) 33%, 
+        rgba(0,255,0,1) 50%, 
+        rgba(0,0,255,1) 66%, 
+        rgba(75,0,130,1) 83%, 
+        rgba(148,0,211,1) 100%
+    );
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
